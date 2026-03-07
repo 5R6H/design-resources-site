@@ -226,6 +226,62 @@
           "中国"
         ],
         "image": null
+      },
+      {
+        "name": "fontsfromfolch.com",
+        "url": "https://www.fontsfromfolch.com/#fonts",
+        "tags": [
+          "type",
+          "欧洲"
+        ]
+      },
+      {
+        "name": "weltkern.com",
+        "url": "https://www.weltkern.com/shop/typefaces",
+        "tags": [
+          "type",
+          "欧洲"
+        ]
+      },
+      {
+        "name": "playtype.com",
+        "url": "https://playtype.com/typefaces/",
+        "tags": [
+          "type",
+          "欧洲"
+        ]
+      },
+      {
+        "name": "typetype.org",
+        "url": "https://typetype.org/fonts/",
+        "tags": [
+          "type",
+          "欧洲"
+        ]
+      },
+      {
+        "name": "ecal-typefaces.ch",
+        "url": "https://ecal-typefaces.ch/",
+        "tags": [
+          "type",
+          "欧洲"
+        ]
+      },
+      {
+        "name": "hanyi.com.cn",
+        "url": "https://www.hanyi.com.cn/font-list",
+        "tags": [
+          "type",
+          "中国"
+        ]
+      },
+      {
+        "name": "github.com",
+        "url": "https://github.com/g-cqd/Fonts/tree/main/Foundries",
+        "tags": [
+          "type",
+          "全球"
+        ]
       }
     ]
   },
@@ -617,41 +673,6 @@
   {
     "category": "其他 / Other",
     "items": [
-      {
-        "name": "fontsfromfolch.com",
-        "url": "https://www.fontsfromfolch.com/#fonts",
-        "tags": []
-      },
-      {
-        "name": "weltkern.com",
-        "url": "https://www.weltkern.com/shop/typefaces",
-        "tags": []
-      },
-      {
-        "name": "playtype.com",
-        "url": "https://playtype.com/typefaces/",
-        "tags": []
-      },
-      {
-        "name": "typetype.org",
-        "url": "https://typetype.org/fonts/",
-        "tags": []
-      },
-      {
-        "name": "ecal-typefaces.ch",
-        "url": "https://ecal-typefaces.ch/",
-        "tags": []
-      },
-      {
-        "name": "hanyi.com.cn",
-        "url": "https://www.hanyi.com.cn/font-list",
-        "tags": []
-      },
-      {
-        "name": "github.com",
-        "url": "https://github.com/g-cqd/Fonts/tree/main/Foundries",
-        "tags": []
-      },
       {
         "name": "layers.design",
         "url": "https://layers.design/collections/mockups",

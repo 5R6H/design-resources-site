@@ -15,6 +15,26 @@ function faviconFor(url) {
   return `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
 }
 
+function previewCandidates(url, ogImage) {
+  const encoded = encodeURIComponent(url);
+  const list = [];
+  if (ogImage) list.push(ogImage);
+  list.push(`https://image.thum.io/get/width/900/noanimate/${url}`);
+  list.push(`https://s.wordpress.com/mshots/v1/${encoded}?w=900`);
+  return list;
+}
+
+function imgFallback(el) {
+  const next = Number(el.dataset.fallbackIndex || '0') + 1;
+  const sources = (el.dataset.fallbacks || '').split('||').filter(Boolean);
+  if (next < sources.length) {
+    el.dataset.fallbackIndex = String(next);
+    el.src = sources[next];
+  } else {
+    el.style.display = 'none';
+  }
+}
+
 function render(data) {
   categoriesEl.innerHTML = '';
   let total = 0;
@@ -36,11 +56,10 @@ function render(data) {
       card.className = 'card';
 
       const shouldShowPreview = ['字体 / Type', '设计工作室 / Studios'].includes(category.category);
-      const previewSrc = shouldShowPreview
-        ? (item.image || `https://image.thum.io/get/width/900/noanimate/${item.url}`)
-        : '';
+      const previews = shouldShowPreview ? previewCandidates(item.url, item.image) : [];
+      const previewSrc = previews[0] || '';
       card.innerHTML = `
-        ${shouldShowPreview ? `<img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" />` : ''}
+        ${shouldShowPreview ? `<img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" />` : ''}
         <div class="cardHead">
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
