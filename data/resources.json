@@ -1,34 +1,378 @@
 [
   {
-    "category": "字体 / Type",
+    "category": "未分类",
     "items": [
       {
-        "name": "Google Fonts",
-        "url": "https://fonts.google.com/",
-        "tags": ["font", "free"],
-        "note": "示例数据，后续可替换为你的 Notion 链接"
-      }
-    ]
-  },
-  {
-    "category": "配色 / Color",
-    "items": [
+        "name": "notion.so",
+        "url": "https://www.notion.so/103ad13a55c4803995a0e573e09adb47?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
       {
-        "name": "Coolors",
-        "url": "https://coolors.co/",
-        "tags": ["palette"],
-        "note": "示例数据"
-      }
-    ]
-  },
-  {
-    "category": "灵感 / Inspiration",
-    "items": [
+        "name": "notion.so",
+        "url": "https://www.notion.so/Inspiration-4dec5c9183b84da1a5e2127ade218629?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
       {
-        "name": "Behance",
-        "url": "https://www.behance.net/",
-        "tags": ["portfolio", "inspiration"],
-        "note": "示例数据"
+        "name": "notion.so",
+        "url": "https://www.notion.so/c5f45542c077414d93741fa229cf0f93?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "notion.so",
+        "url": "https://www.notion.so/Inspiration-825262f263674839926bf94042142e35?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "fontsinuse.com",
+        "url": "https://fontsinuse.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "typewolf.com",
+        "url": "https://www.typewolf.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "pangrampangram.com",
+        "url": "https://pangrampangram.com/collections/fonts",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "bb-bureau.fr",
+        "url": "https://www.bb-bureau.fr/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "off-type.com",
+        "url": "https://off-type.com/collections/all",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "due-studio.com",
+        "url": "https://www.due-studio.com/typefaces",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "plain-form.com",
+        "url": "https://plain-form.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "gruppo-due.com",
+        "url": "https://gruppo-due.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "velvetyne.fr",
+        "url": "https://velvetyne.fr/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "fontsfromfolch.com",
+        "url": "https://www.fontsfromfolch.com/#fonts",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "thedesignersfoundry.com",
+        "url": "https://www.thedesignersfoundry.com",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "klim.co.nz",
+        "url": "https://klim.co.nz",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "colophon-foundry.org",
+        "url": "https://www.colophon-foundry.org",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "lineto.com",
+        "url": "https://lineto.com/?story=geigy",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "tightype.com",
+        "url": "https://tightype.com",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "pangrampangram.com",
+        "url": "https://pangrampangram.com",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "weltkern.com",
+        "url": "https://www.weltkern.com/shop/typefaces",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "goodtypefoundry.com",
+        "url": "https://goodtypefoundry.com",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "ohnotype.co",
+        "url": "https://ohnotype.co",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "playtype.com",
+        "url": "https://playtype.com/typefaces/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "abcdinamo.com",
+        "url": "https://abcdinamo.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "vj-type.com",
+        "url": "https://vj-type.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "typetype.org",
+        "url": "https://typetype.org/fonts/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "altiplano.xyz",
+        "url": "https://altiplano.xyz/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "ecal-typefaces.ch",
+        "url": "https://ecal-typefaces.ch/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "type.hanli.eu",
+        "url": "https://type.hanli.eu/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "typotheque.genderfluid.space",
+        "url": "https://typotheque.genderfluid.space/index.html",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "displaay.net",
+        "url": "https://displaay.net/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "skriftkompani.no",
+        "url": "https://skriftkompani.no/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "foundertype.com",
+        "url": "https://www.foundertype.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "hanyi.com.cn",
+        "url": "https://www.hanyi.com.cn/font-list",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "unblast.com",
+        "url": "https://unblast.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "showcasebh.com",
+        "url": "https://www.showcasebh.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "layers.design",
+        "url": "https://layers.design/collections/mockups",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "mockuprepublic.com",
+        "url": "https://mockuprepublic.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "mockup.maison",
+        "url": "https://mockup.maison/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "supply.family",
+        "url": "https://supply.family/product-category/mockups/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "benditomockup.com",
+        "url": "https://benditomockup.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "graduate360.cn",
+        "url": "http://graduate360.cn/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/graduate360_100/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "dandad.org",
+        "url": "https://www.dandad.org/en/d-ad-new-blood-awards/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/newblood_dandad/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "youngones.org",
+        "url": "https://youngones.org/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/TheOneClubForCreativity/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "thedesignkids.org",
+        "url": "https://thedesignkids.org/awards/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/thedesignkids/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "award360.cn",
+        "url": "http://award360.cn/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/award360/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "intl.international",
+        "url": "https://intl.international/posters/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/intl.international/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "tokyotypedirectorsclub.org",
+        "url": "https://tokyotypedirectorsclub.org/en/entry/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "instagram.com",
+        "url": "https://www.instagram.com/tokyotdc/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "oneclub.org",
+        "url": "https://www.oneclub.org/awards/tdcawards/-award/41996/2021-another-calendar",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "theindex.website",
+        "url": "https://theindex.website/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "notion.so",
+        "url": "https://www.notion.so/a8db1c35e5de412fb673ceda8acb87e6?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "omglord.com",
+        "url": "https://omglord.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "github.com",
+        "url": "https://github.com/g-cqd/Fonts/tree/main/Foundries",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "diegogildebiedma.com",
+        "url": "https://diegogildebiedma.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
       }
     ]
   }
