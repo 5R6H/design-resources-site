@@ -15,19 +15,12 @@ function faviconFor(url) {
   return `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
 }
 
-function previewCandidates(url, ogImage) {
+function previewCandidates(url) {
   const encoded = encodeURIComponent(url);
-  const workUrl = `${url.replace(/\/$/, '')}/work`;
-  const projectUrl = `${url.replace(/\/$/, '')}/projects`;
-  const list = [];
-  if (ogImage) list.push(ogImage);
-  list.push(`https://image.thum.io/get/width/1200/noanimate/${workUrl}`);
-  list.push(`https://image.thum.io/get/width/1200/noanimate/${projectUrl}`);
-  list.push(`https://s.wordpress.com/mshots/v1/${encodeURIComponent(workUrl)}?w=1200`);
-  list.push(`https://s.wordpress.com/mshots/v1/${encodeURIComponent(projectUrl)}?w=1200`);
-  list.push(`https://image.thum.io/get/width/1200/noanimate/${url}`);
-  list.push(`https://s.wordpress.com/mshots/v1/${encoded}?w=1200`);
-  return list;
+  return [
+    `https://image.thum.io/get/width/1200/noanimate/${url}`,
+    `https://s.wordpress.com/mshots/v1/${encoded}?w=1200`
+  ];
 }
 
 function imgFallback(el) {
@@ -43,13 +36,7 @@ function imgFallback(el) {
 
 function sortItems(items, categoryName) {
   if (!['字体 / Type', '设计工作室 / Studios'].includes(categoryName)) return items;
-  const regionOrder = ['中国', '亚洲', '欧洲', '北美', '南美', '大洋洲', '全球', '未标注地区'];
-  const idx = (r) => {
-    const i = regionOrder.indexOf(r || '未标注地区');
-    return i === -1 ? 999 : i;
-  };
   return [...items].sort((a, b) =>
-    idx(a.region) - idx(b.region) ||
     (a.country || '').localeCompare(b.country || '', 'zh-Hans-CN') ||
     (a.city || '').localeCompare(b.city || '', 'zh-Hans-CN') ||
     (a.name || '').localeCompare(b.name || '', 'en')
@@ -77,7 +64,7 @@ function render(data) {
       card.className = 'card';
 
       const shouldShowPreview = ['字体 / Type', '设计工作室 / Studios'].includes(category.category);
-      const previews = shouldShowPreview ? previewCandidates(item.url, item.image) : [];
+      const previews = shouldShowPreview ? previewCandidates(item.url) : [];
       const previewSrc = previews[0] || '';
       card.innerHTML = `
         ${shouldShowPreview ? `<img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" />` : ''}
@@ -85,7 +72,7 @@ function render(data) {
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
         </div>
-        <div class="meta">${[item.region, item.country, item.city].filter(Boolean).join(' · ')} · ${domainFrom(item.url)}</div>
+        <div class="meta">${[item.country, item.city].filter(Boolean).join(' · ')} · ${domainFrom(item.url)}</div>
         <div class="tags">${(item.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
       `;
 
