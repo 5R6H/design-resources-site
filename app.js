@@ -16,10 +16,8 @@ function faviconFor(url) {
 }
 
 function previewCandidates(url) {
-  const encoded = encodeURIComponent(url);
   return [
-    `https://image.thum.io/get/width/1200/noanimate/${url}`,
-    `https://s.wordpress.com/mshots/v1/${encoded}?w=1200`
+    `https://image.thum.io/get/width/480/crop/480/noanimate/${url}`
   ];
 }
 
@@ -72,8 +70,8 @@ function render(data) {
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
         </div>
-        <div class="meta">${[item.country, item.city].filter(Boolean).join(' · ')} · ${domainFrom(item.url)}</div>
-        <div class="tags">${(item.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+        <div class="meta">${domainFrom(item.url)}</div>
+        <div class="meta">${[item.country, item.city].filter(Boolean).join(' · ')}</div>
       `;
 
       grid.appendChild(card);
