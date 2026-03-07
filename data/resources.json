@@ -1,0 +1,35 @@
+[
+  {
+    "category": "字体 / Type",
+    "items": [
+      {
+        "name": "Google Fonts",
+        "url": "https://fonts.google.com/",
+        "tags": ["font", "free"],
+        "note": "示例数据，后续可替换为你的 Notion 链接"
+      }
+    ]
+  },
+  {
+    "category": "配色 / Color",
+    "items": [
+      {
+        "name": "Coolors",
+        "url": "https://coolors.co/",
+        "tags": ["palette"],
+        "note": "示例数据"
+      }
+    ]
+  },
+  {
+    "category": "灵感 / Inspiration",
+    "items": [
+      {
+        "name": "Behance",
+        "url": "https://www.behance.net/",
+        "tags": ["portfolio", "inspiration"],
+        "note": "示例数据"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graphic Design Resources</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Graphic Design Resources</h1>
+    <p>本地设计资源导航站</p>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="搜索资源名称、标签、域名..." />
+      <span id="count"></span>
+    </div>
+
+    <section id="categories"></section>
+  </main>
+
+  <footer>
+    <small>把 Notion 链接放进 <code>data/resources.json</code>，页面会自动渲染。</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
