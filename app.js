@@ -17,7 +17,7 @@ function faviconFor(url) {
 
 function previewCandidates(url) {
   return [
-    `https://image.thum.io/get/width/480/crop/480/noanimate/${url}`
+    `https://image.thum.io/get/width/640/noanimate/${url}`
   ];
 }
 
@@ -65,7 +65,7 @@ function render(data) {
       const previews = shouldShowPreview ? previewCandidates(item.url) : [];
       const previewSrc = previews[0] || '';
       card.innerHTML = `
-        ${shouldShowPreview ? `<img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" />` : ''}
+        ${shouldShowPreview ? `<a class="previewLink" href="${item.url}" target="_blank" rel="noopener noreferrer"><img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" /></a>` : ''}
         <div class="cardHead">
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
@@ -99,14 +99,47 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
+const CACHE_KEY = 'design_resources_cache_v1';
+const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
+
+function loadCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed?.data || !parsed?.cachedAt) return null;
+    if (Date.now() - parsed.cachedAt > CACHE_MAX_AGE_MS) return null;
+    return parsed.data;
+  } catch {
+    return null;
+  }
+}
+
+function saveCache(data) {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ data, cachedAt: Date.now() }));
+  } catch {
+    // localStorage may be unavailable (private mode / quota)
+  }
+}
+
+const cachedData = loadCache();
+if (cachedData) {
+  allData = cachedData;
+  render(allData);
+}
+
 fetch('./data/resources.json')
   .then(r => r.json())
   .then(data => {
     allData = data;
+    saveCache(data);
     render(allData);
   })
   .catch(err => {
-    categoriesEl.innerHTML = `<p>加载失败：${err.message}</p>`;
+    if (!cachedData) {
+      categoriesEl.innerHTML = `<p>加载失败：${err.message}</p>`;
+    }
   });
 
 searchEl.addEventListener('input', () => {
