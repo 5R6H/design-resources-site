@@ -1,6 +1,6 @@
 [
   {
-    "category": "未分类",
+    "category": "Notion / Pages",
     "items": [
       {
         "name": "notion.so",
@@ -26,6 +26,17 @@
         "tags": [],
         "note": "从 Notion 导入"
       },
+      {
+        "name": "notion.so",
+        "url": "https://www.notion.so/a8db1c35e5de412fb673ceda8acb87e6?pvs=21",
+        "tags": [],
+        "note": "从 Notion 导入"
+      }
+    ]
+  },
+  {
+    "category": "字体 / Type",
+    "items": [
       {
         "name": "fontsinuse.com",
         "url": "https://fontsinuse.com/",
@@ -63,6 +74,12 @@
         "note": "从 Notion 导入"
       },
       {
+        "name": "pangrampangram.com",
+        "url": "https://pangrampangram.com",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
         "name": "plain-form.com",
         "url": "https://plain-form.com/",
         "tags": [],
@@ -77,12 +94,6 @@
       {
         "name": "velvetyne.fr",
         "url": "https://velvetyne.fr/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "fontsfromfolch.com",
-        "url": "https://www.fontsfromfolch.com/#fonts",
         "tags": [],
         "note": "从 Notion 导入"
       },
@@ -117,18 +128,6 @@
         "note": "从 Notion 导入"
       },
       {
-        "name": "pangrampangram.com",
-        "url": "https://pangrampangram.com",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "weltkern.com",
-        "url": "https://www.weltkern.com/shop/typefaces",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
         "name": "goodtypefoundry.com",
         "url": "https://goodtypefoundry.com",
         "tags": [],
@@ -137,12 +136,6 @@
       {
         "name": "ohnotype.co",
         "url": "https://ohnotype.co",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "playtype.com",
-        "url": "https://playtype.com/typefaces/",
         "tags": [],
         "note": "从 Notion 导入"
       },
@@ -159,20 +152,8 @@
         "note": "从 Notion 导入"
       },
       {
-        "name": "typetype.org",
-        "url": "https://typetype.org/fonts/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
         "name": "altiplano.xyz",
         "url": "https://altiplano.xyz/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "ecal-typefaces.ch",
-        "url": "https://ecal-typefaces.ch/",
         "tags": [],
         "note": "从 Notion 导入"
       },
@@ -205,52 +186,15 @@
         "url": "https://www.foundertype.com/",
         "tags": [],
         "note": "从 Notion 导入"
-      },
-      {
-        "name": "hanyi.com.cn",
-        "url": "https://www.hanyi.com.cn/font-list",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "unblast.com",
-        "url": "https://unblast.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
+      }
+    ]
+  },
+  {
+    "category": "灵感 / Inspiration",
+    "items": [
       {
         "name": "showcasebh.com",
         "url": "https://www.showcasebh.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "layers.design",
-        "url": "https://layers.design/collections/mockups",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "mockuprepublic.com",
-        "url": "https://mockuprepublic.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "mockup.maison",
-        "url": "https://mockup.maison/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "supply.family",
-        "url": "https://supply.family/product-category/mockups/",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "benditomockup.com",
-        "url": "https://benditomockup.com/",
         "tags": [],
         "note": "从 Notion 导入"
       },
@@ -351,14 +295,66 @@
         "note": "从 Notion 导入"
       },
       {
-        "name": "notion.so",
-        "url": "https://www.notion.so/a8db1c35e5de412fb673ceda8acb87e6?pvs=21",
+        "name": "omglord.com",
+        "url": "https://omglord.com/",
         "tags": [],
         "note": "从 Notion 导入"
       },
       {
-        "name": "omglord.com",
-        "url": "https://omglord.com/",
+        "name": "diegogildebiedma.com",
+        "url": "https://diegogildebiedma.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      }
+    ]
+  },
+  {
+    "category": "Mockup / 场景",
+    "items": [
+      {
+        "name": "unblast.com",
+        "url": "https://unblast.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      }
+    ]
+  },
+  {
+    "category": "其他 / Other",
+    "items": [
+      {
+        "name": "fontsfromfolch.com",
+        "url": "https://www.fontsfromfolch.com/#fonts",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "weltkern.com",
+        "url": "https://www.weltkern.com/shop/typefaces",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "playtype.com",
+        "url": "https://playtype.com/typefaces/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "typetype.org",
+        "url": "https://typetype.org/fonts/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "ecal-typefaces.ch",
+        "url": "https://ecal-typefaces.ch/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "hanyi.com.cn",
+        "url": "https://www.hanyi.com.cn/font-list",
         "tags": [],
         "note": "从 Notion 导入"
       },
@@ -369,8 +365,32 @@
         "note": "从 Notion 导入"
       },
       {
-        "name": "diegogildebiedma.com",
-        "url": "https://diegogildebiedma.com/",
+        "name": "layers.design",
+        "url": "https://layers.design/collections/mockups",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "mockuprepublic.com",
+        "url": "https://mockuprepublic.com/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "mockup.maison",
+        "url": "https://mockup.maison/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "supply.family",
+        "url": "https://supply.family/product-category/mockups/",
+        "tags": [],
+        "note": "从 Notion 导入"
+      },
+      {
+        "name": "benditomockup.com",
+        "url": "https://benditomockup.com/",
         "tags": [],
         "note": "从 Notion 导入"
       }
