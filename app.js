@@ -35,7 +35,12 @@ function render(data) {
       const card = document.createElement('article');
       card.className = 'card';
 
+      const shouldShowPreview = ['字体 / Type', '设计工作室 / Studios'].includes(category.category);
+      const previewSrc = shouldShowPreview
+        ? (item.image || `https://image.thum.io/get/width/900/noanimate/${item.url}`)
+        : '';
       card.innerHTML = `
+        ${shouldShowPreview ? `<img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" />` : ''}
         <div class="cardHead">
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>

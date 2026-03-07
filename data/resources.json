@@ -1,191 +1,231 @@
 [
   {
-    "category": "Notion / Pages",
-    "items": [
-      {
-        "name": "notion.so",
-        "url": "https://www.notion.so/103ad13a55c4803995a0e573e09adb47?pvs=21",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "notion.so",
-        "url": "https://www.notion.so/Inspiration-4dec5c9183b84da1a5e2127ade218629?pvs=21",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "notion.so",
-        "url": "https://www.notion.so/c5f45542c077414d93741fa229cf0f93?pvs=21",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "notion.so",
-        "url": "https://www.notion.so/Inspiration-825262f263674839926bf94042142e35?pvs=21",
-        "tags": [],
-        "note": "从 Notion 导入"
-      },
-      {
-        "name": "notion.so",
-        "url": "https://www.notion.so/a8db1c35e5de412fb673ceda8acb87e6?pvs=21",
-        "tags": [],
-        "note": "从 Notion 导入"
-      }
-    ]
-  },
-  {
     "category": "字体 / Type",
     "items": [
       {
         "name": "fontsinuse.com",
         "url": "https://fontsinuse.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "北美"
+        ],
+        "image": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/&k=fea3b3b2f54abc640c7705b62dd465bd&v=aca9306f"
       },
       {
         "name": "typewolf.com",
         "url": "https://www.typewolf.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "北美"
+        ],
+        "image": "https://www.typewolf.com/assets/img/typewolf-og.png"
       },
       {
         "name": "pangrampangram.com",
         "url": "https://pangrampangram.com/collections/fonts",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "http://pangrampangram.com/cdn/shop/files/SM_Sharing_Image.jpg?v=1746838589"
       },
       {
         "name": "bb-bureau.fr",
         "url": "https://www.bb-bureau.fr/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "off-type.com",
         "url": "https://off-type.com/collections/all",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0632/8533/0147/files/Share_image.png?v=1682688388"
       },
       {
         "name": "due-studio.com",
         "url": "https://www.due-studio.com/typefaces",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://cdn.prod.website-files.com/6032522b994d4a7ce92d47bd/61deabb04bbc681f1f741b0f_2STD_Open%20Graph%20Image.png"
       },
       {
         "name": "pangrampangram.com",
         "url": "https://pangrampangram.com",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "http://pangrampangram.com/cdn/shop/files/SM_Sharing_Image.jpg?v=1746838589"
       },
       {
         "name": "plain-form.com",
         "url": "https://plain-form.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://plain-form.com/assets/social.jpg"
       },
       {
         "name": "gruppo-due.com",
         "url": "https://gruppo-due.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "velvetyne.fr",
         "url": "https://velvetyne.fr/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://velvetyne.fr/site/templates/img/og.gif"
       },
       {
         "name": "thedesignersfoundry.com",
         "url": "https://www.thedesignersfoundry.com",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://res.cloudinary.com/tdfoundry/image/upload/v1698767304/Screenshot_2023-10-31_at_8.46.32_AM_xzbevy.png"
       },
       {
         "name": "klim.co.nz",
         "url": "https://klim.co.nz",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "大洋洲"
+        ],
+        "image": "https://klim.imgix.net/manual/klim-share.png?auto=format%2Ccompress&amp;cs=srgb&amp;q=90"
       },
       {
         "name": "colophon-foundry.org",
         "url": "https://www.colophon-foundry.org",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "lineto.com",
         "url": "https://lineto.com/?story=geigy",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://lineto.com/api/front/page-capture?width=1440&height=960&scale=1&fullPath=/&v=1"
       },
       {
         "name": "tightype.com",
         "url": "https://tightype.com",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": "https://tightype.com/og.png"
       },
       {
         "name": "goodtypefoundry.com",
         "url": "https://goodtypefoundry.com",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "ohnotype.co",
         "url": "https://ohnotype.co",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "北美"
+        ],
+        "image": "https://ohno.sfo3.cdn.digitaloceanspaces.com/images/Site/_thumbnail/foundry_banner.jpg"
       },
       {
         "name": "abcdinamo.com",
         "url": "https://abcdinamo.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "vj-type.com",
         "url": "https://vj-type.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "altiplano.xyz",
         "url": "https://altiplano.xyz/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "type.hanli.eu",
         "url": "https://type.hanli.eu/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "typotheque.genderfluid.space",
         "url": "https://typotheque.genderfluid.space/index.html",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "displaay.net",
         "url": "https://displaay.net/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "skriftkompani.no",
         "url": "https://skriftkompani.no/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "欧洲"
+        ],
+        "image": null
       },
       {
         "name": "foundertype.com",
         "url": "https://www.foundertype.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": [
+          "type",
+          "中国"
+        ],
+        "image": null
       }
     ]
   },
@@ -198,7 +238,8 @@
         "tags": [
           "studio",
           "北美"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "702",
@@ -206,7 +247,8 @@
         "tags": [
           "studio",
           "北美"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "A Black Cover Design",
@@ -214,7 +256,8 @@
         "tags": [
           "studio",
           "亚洲"
-        ]
+        ],
+        "image": "https://freight.cargo.site/i/1e59d2b04d782769e3ee761b17039d00b2a5c792146994f1bc3ffe824aa50ddf/iconabcd-1.jpg"
       },
       {
         "name": "Area of Work",
@@ -222,7 +265,8 @@
         "tags": [
           "studio",
           "亚洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Collins",
@@ -230,7 +274,8 @@
         "tags": [
           "studio",
           "北美"
-        ]
+        ],
+        "image": "https://cdn.sanity.io/images/fmzd4n68/production/e2ee60a94e1ccaae172c0c8304c59572d6316bb2-1200x630.png"
       },
       {
         "name": "Cotton",
@@ -238,7 +283,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://cdn.sanity.io/images/kj6mszli/production/e9e3fb8d066e44f9a27373a747672904fe92d0e6-1200x650.png?rect=0,10,1200,630&amp;w=1200&amp;h=630&amp;q=80&amp;auto=format"
       },
       {
         "name": "Daisy Chain Studio",
@@ -246,7 +292,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "DIA",
@@ -254,7 +301,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Little Troops",
@@ -262,7 +310,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://cdn.sanity.io/images/nzz8ytz7/production/2cafe897c3db53c72ae03a37d860e0ba637fcf7a-1200x630.jpg?w=1200&auto=format"
       },
       {
         "name": "Made Thought",
@@ -270,7 +319,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "ManvsMachine",
@@ -278,7 +328,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://mvsm.com/assets/images/project/_extraLarge/cover_2025-12-03-122636_xmph.png"
       },
       {
         "name": "More Studio",
@@ -286,7 +337,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://wp.morebymore.com/wp-content/uploads/2021/05/more-logo-animation.gif"
       },
       {
         "name": "Mother Design",
@@ -294,7 +346,8 @@
         "tags": [
           "studio",
           "北美"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Mouthwash Studio",
@@ -302,7 +355,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://cdn.sanity.io/images/ew1yzffi/production/dd50145491f0abad67f43aac089affd406c98902-1200x630.png?w=1200&auto=format"
       },
       {
         "name": "OK-RM",
@@ -310,7 +364,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Pentagram",
@@ -318,7 +373,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://www.pentagram.com/pentagram_social.png"
       },
       {
         "name": "Porto Rocha",
@@ -326,7 +382,8 @@
         "tags": [
           "studio",
           "北美"
-        ]
+        ],
+        "image": "https://images.prismic.io/portorocha/aQPzU7pReVYa33Lv_PortoRochaSquare.png?w=1200&h=630&q=80&fit=crop"
       },
       {
         "name": "Studio Airport",
@@ -334,7 +391,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://www.studioairport.nl/app/uploads/2025/09/EM-Vol-5-Final-002.jpg"
       },
       {
         "name": "Studio Ground Floor",
@@ -342,7 +400,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "STUDIO NA.EO",
@@ -350,7 +409,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Studio Yukiko",
@@ -358,7 +418,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://y-u-k-i-k-o.com/wp-content/uploads/2024/01/PoMo_Header-Horizontal01-1.jpg"
       },
       {
         "name": "Two Times Elliott",
@@ -366,7 +427,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://www.datocms-assets.com/97422/1708032002-xx_kettlekids_twotimeselliott_2024_00013.jpg"
       },
       {
         "name": "TWOMUCH",
@@ -374,7 +436,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://f810ae3f76d2f6b08e6ebbacf44c6f29-12414.sites.k-hosting.co.uk/twomuch_kirby/media/site/6274165ab6-1726570613/meta.png"
       },
       {
         "name": "Untitled Macao",
@@ -382,7 +445,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://untitledmacao.com/wp-content/uploads/2021/09/210930-untitled-branding-01-webbanner-1.png"
       },
       {
         "name": "Wolff Olins",
@@ -390,7 +454,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Workbyworks",
@@ -398,7 +463,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://workbyworks.studio/share.png"
       },
       {
         "name": "Zoo",
@@ -406,7 +472,8 @@
         "tags": [
           "studio",
           "欧洲"
-        ]
+        ],
+        "image": "https://z-o-o.fr/content/zoo-sharinglogo.png"
       },
       {
         "name": "Atmosphere Office",
@@ -414,7 +481,8 @@
         "tags": [
           "studio",
           "中国"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "DTZW",
@@ -422,7 +490,8 @@
         "tags": [
           "studio",
           "中国"
-        ]
+        ],
+        "image": null
       },
       {
         "name": "Reesaw Studio",
@@ -430,7 +499,8 @@
         "tags": [
           "studio",
           "中国"
-        ]
+        ],
+        "image": null
       }
     ]
   },
@@ -440,116 +510,97 @@
       {
         "name": "showcasebh.com",
         "url": "https://www.showcasebh.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "graduate360.cn",
         "url": "http://graduate360.cn/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/graduate360_100/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "dandad.org",
         "url": "https://www.dandad.org/en/d-ad-new-blood-awards/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/newblood_dandad/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "youngones.org",
         "url": "https://youngones.org/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/TheOneClubForCreativity/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "thedesignkids.org",
         "url": "https://thedesignkids.org/awards/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/thedesignkids/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "award360.cn",
         "url": "http://award360.cn/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/award360/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "intl.international",
         "url": "https://intl.international/posters/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/intl.international/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "tokyotypedirectorsclub.org",
         "url": "https://tokyotypedirectorsclub.org/en/entry/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "instagram.com",
         "url": "https://www.instagram.com/tokyotdc/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "oneclub.org",
         "url": "https://www.oneclub.org/awards/tdcawards/-award/41996/2021-another-calendar",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "theindex.website",
         "url": "https://theindex.website/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "omglord.com",
         "url": "https://omglord.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "diegogildebiedma.com",
         "url": "https://diegogildebiedma.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       }
     ]
   },
@@ -559,8 +610,7 @@
       {
         "name": "unblast.com",
         "url": "https://unblast.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       }
     ]
   },
@@ -570,74 +620,62 @@
       {
         "name": "fontsfromfolch.com",
         "url": "https://www.fontsfromfolch.com/#fonts",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "weltkern.com",
         "url": "https://www.weltkern.com/shop/typefaces",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "playtype.com",
         "url": "https://playtype.com/typefaces/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "typetype.org",
         "url": "https://typetype.org/fonts/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "ecal-typefaces.ch",
         "url": "https://ecal-typefaces.ch/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "hanyi.com.cn",
         "url": "https://www.hanyi.com.cn/font-list",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "github.com",
         "url": "https://github.com/g-cqd/Fonts/tree/main/Foundries",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "layers.design",
         "url": "https://layers.design/collections/mockups",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "mockuprepublic.com",
         "url": "https://mockuprepublic.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "mockup.maison",
         "url": "https://mockup.maison/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "supply.family",
         "url": "https://supply.family/product-category/mockups/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       },
       {
         "name": "benditomockup.com",
         "url": "https://benditomockup.com/",
-        "tags": [],
-        "note": "从 Notion 导入"
+        "tags": []
       }
     ]
   }
