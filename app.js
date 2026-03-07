@@ -9,6 +9,12 @@ function domainFrom(url) {
   catch { return ''; }
 }
 
+function faviconFor(url) {
+  const domain = domainFrom(url);
+  if (!domain) return '';
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+}
+
 function render(data) {
   categoriesEl.innerHTML = '';
   let total = 0;
@@ -30,8 +36,11 @@ function render(data) {
       card.className = 'card';
 
       card.innerHTML = `
-        <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
-        <div class="meta">${domainFrom(item.url)}${item.note ? ` · ${item.note}` : ''}</div>
+        <div class="cardHead">
+          <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
+          <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
+        </div>
+        <div class="meta">${domainFrom(item.url)}</div>
         <div class="tags">${(item.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
       `;
 
