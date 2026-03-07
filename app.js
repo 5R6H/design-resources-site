@@ -17,10 +17,16 @@ function faviconFor(url) {
 
 function previewCandidates(url, ogImage) {
   const encoded = encodeURIComponent(url);
+  const workUrl = `${url.replace(/\/$/, '')}/work`;
+  const projectUrl = `${url.replace(/\/$/, '')}/projects`;
   const list = [];
   if (ogImage) list.push(ogImage);
-  list.push(`https://image.thum.io/get/width/900/noanimate/${url}`);
-  list.push(`https://s.wordpress.com/mshots/v1/${encoded}?w=900`);
+  list.push(`https://image.thum.io/get/width/1200/noanimate/${workUrl}`);
+  list.push(`https://image.thum.io/get/width/1200/noanimate/${projectUrl}`);
+  list.push(`https://s.wordpress.com/mshots/v1/${encodeURIComponent(workUrl)}?w=1200`);
+  list.push(`https://s.wordpress.com/mshots/v1/${encodeURIComponent(projectUrl)}?w=1200`);
+  list.push(`https://image.thum.io/get/width/1200/noanimate/${url}`);
+  list.push(`https://s.wordpress.com/mshots/v1/${encoded}?w=1200`);
   return list;
 }
 
@@ -33,6 +39,21 @@ function imgFallback(el) {
   } else {
     el.style.display = 'none';
   }
+}
+
+function sortItems(items, categoryName) {
+  if (!['字体 / Type', '设计工作室 / Studios'].includes(categoryName)) return items;
+  const regionOrder = ['中国', '亚洲', '欧洲', '北美', '南美', '大洋洲', '全球', '未标注地区'];
+  const idx = (r) => {
+    const i = regionOrder.indexOf(r || '未标注地区');
+    return i === -1 ? 999 : i;
+  };
+  return [...items].sort((a, b) =>
+    idx(a.region) - idx(b.region) ||
+    (a.country || '').localeCompare(b.country || '', 'zh-Hans-CN') ||
+    (a.city || '').localeCompare(b.city || '', 'zh-Hans-CN') ||
+    (a.name || '').localeCompare(b.name || '', 'en')
+  );
 }
 
 function render(data) {
@@ -50,7 +71,7 @@ function render(data) {
     const grid = document.createElement('div');
     grid.className = 'grid';
 
-    for (const item of category.items) {
+    for (const item of sortItems(category.items, category.category)) {
       total++;
       const card = document.createElement('article');
       card.className = 'card';
@@ -64,7 +85,7 @@ function render(data) {
           <img class="favicon" src="${faviconFor(item.url)}" alt="" loading="lazy" />
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
         </div>
-        <div class="meta">${domainFrom(item.url)}</div>
+        <div class="meta">${[item.region, item.country, item.city].filter(Boolean).join(' · ')} · ${domainFrom(item.url)}</div>
         <div class="tags">${(item.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
       `;
 
