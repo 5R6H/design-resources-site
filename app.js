@@ -152,8 +152,16 @@ if (cachedData) {
   render(allData);
 }
 
-fetch('./data/resources.json')
-  .then(r => r.json())
+function loadResources() {
+  return fetch('./data/resources.json')
+    .then(r => {
+      if (!r.ok) throw new Error('no data/resources.json');
+      return r.json();
+    })
+    .catch(() => fetch('./resources.json').then(r => r.json()));
+}
+
+loadResources()
   .then(data => {
     allData = data;
     saveCache(data);
