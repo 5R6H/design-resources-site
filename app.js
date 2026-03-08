@@ -61,7 +61,7 @@ function render(data) {
       const card = document.createElement('article');
       card.className = 'card';
 
-      const shouldShowPreview = ['字体 / Type', '设计工作室 / Studios'].includes(category.category);
+      const shouldShowPreview = true;
       const previews = shouldShowPreview ? previewCandidates(item.url) : [];
       const previewSrc = previews[0] || '';
       card.innerHTML = `
@@ -99,7 +99,7 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
-const CACHE_KEY = 'design_resources_cache_v1';
+const CACHE_KEY = 'design_resources_cache_v2';
 const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function loadCache() {
