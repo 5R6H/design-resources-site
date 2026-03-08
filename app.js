@@ -64,6 +64,11 @@ function render(data) {
       const shouldShowPreview = true;
       const previews = shouldShowPreview ? previewCandidates(item.url) : [];
       const previewSrc = previews[0] || '';
+      const country = item.country || '';
+      const city = item.city || '';
+      const locationHtml = country
+        ? `<div class="meta locationMeta"><span class="country" tabindex="0">${country}</span>${city ? `<span class="city"> · ${city}</span>` : ''}</div>`
+        : '';
       card.innerHTML = `
         ${shouldShowPreview ? `<a class="previewLink" href="${item.url}" target="_blank" rel="noopener noreferrer"><img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" /></a>` : ''}
         <div class="cardHead">
@@ -71,7 +76,7 @@ function render(data) {
           <a href="${item.url}" target="_blank" rel="noopener noreferrer">${item.name}</a>
         </div>
         <div class="meta">${domainFrom(item.url)}</div>
-        <div class="meta">${[item.country, item.city].filter(Boolean).join(' · ')}</div>
+        ${locationHtml}
       `;
 
       grid.appendChild(card);
@@ -99,7 +104,7 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
-const CACHE_KEY = 'design_resources_cache_v2';
+const CACHE_KEY = 'design_resources_cache_v3';
 const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function loadCache() {

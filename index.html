@@ -7,23 +7,27 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Graphic Design Resources</h1>
-    <p>本地设计资源导航站</p>
-  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1>Graphic Design Resources</h1>
+      <p>本地设计资源导航站</p>
 
-  <main>
-    <div class="toolbar">
-      <input id="search" type="search" placeholder="搜索资源名称、标签、域名..." />
-      <span id="count"></span>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="搜索资源名称、标签、域名..." />
+        <span id="count"></span>
+      </div>
+    </aside>
+
+    <div class="content">
+      <main>
+        <section id="categories"></section>
+      </main>
+
+      <footer>
+        <small>本地设计资源导航 · 数据文件：<code>data/resources.json</code></small>
+      </footer>
     </div>
-
-    <section id="categories"></section>
-  </main>
-
-  <footer>
-    <small>本地设计资源导航 · 数据文件：<code>data/resources.json</code></small>
-  </footer>
+  </div>
 
   <script src="app.js"></script>
 </body>
