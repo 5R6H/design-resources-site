@@ -49,6 +49,10 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
+function formatCategoryTitle(title) {
+  return title.replace(/\s*\/\s*/g, ' ');
+}
+
 function render(data) {
   categoriesEl.innerHTML = '';
   sectionNavEl.innerHTML = '';
@@ -59,13 +63,15 @@ function render(data) {
     section.className = 'category';
     section.id = `section-${slugify(category.category)}`;
 
+    const titleText = formatCategoryTitle(category.category);
+
     const h2 = document.createElement('h2');
-    h2.textContent = category.category;
+    h2.textContent = titleText;
     section.appendChild(h2);
 
     const navLink = document.createElement('a');
     navLink.href = `#${section.id}`;
-    navLink.textContent = category.category;
+    navLink.textContent = titleText;
     sectionNavEl.appendChild(navLink);
 
     const grid = document.createElement('div');
@@ -79,11 +85,8 @@ function render(data) {
       const shouldShowPreview = true;
       const previews = shouldShowPreview ? previewCandidates(item.url) : [];
       const previewSrc = previews[0] || '';
-      const country = item.country || '';
-      const city = item.city || '';
-      const locationHtml = country
-        ? `<div class="meta locationMeta"><span class="country" tabindex="0">${country}</span>${city ? `<span class="city"> · ${city}</span>` : ''}</div>`
-        : '';
+      const locationText = [item.country, item.city].filter(Boolean).join(' · ');
+      const locationHtml = locationText ? `<div class="meta locationMeta">${locationText}</div>` : '';
       card.innerHTML = `
         ${shouldShowPreview ? `<a class="previewLink" href="${item.url}" target="_blank" rel="noopener noreferrer"><img class="preview" src="${previewSrc}" alt="${item.name}" loading="lazy" referrerpolicy="no-referrer" data-fallback-index="0" data-fallbacks="${previews.join('||')}" onerror="imgFallback(this)" /></a>` : ''}
         <div class="cardHead">
@@ -119,7 +122,7 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
-const CACHE_KEY = 'design_resources_cache_v4';
+const CACHE_KEY = 'design_resources_cache_v5';
 const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function loadCache() {
