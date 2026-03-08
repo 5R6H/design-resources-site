@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: #ffffff;
+  background: #f5f6f8;
   color: #1d2736;
 }
 
@@ -10,19 +10,21 @@ body {
   width: 100%;
   margin: 0;
   padding: 40px;
-  display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(0, 3fr);
-  gap: 96px;
 }
 
 .sidebar {
-  position: sticky;
+  position: fixed;
+  left: 40px;
   top: 40px;
-  align-self: start;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 40px);
+  width: max(220px, calc((100vw - 80px - 96px) * 0.25));
+  height: calc(100vh - 80px);
   padding-bottom: 40px;
+}
+
+.content {
+  margin-left: calc(max(220px, (100vw - 80px - 96px) * 0.25) + 96px);
 }
 
 .sidebar h1 {
@@ -74,6 +76,7 @@ input[type='search'] {
   margin-top: 56px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 10px;
   overflow: visible;
   padding-right: 6px;
@@ -81,6 +84,7 @@ input[type='search'] {
 }
 
 .sectionNav a {
+  display: inline-block;
   color: #2f3e56;
   text-decoration: none;
   font-size: 24px;
@@ -131,10 +135,16 @@ main { min-width: 0; }
   }
   .sidebar {
     position: static;
+    left: auto;
+    top: auto;
+    width: auto;
     margin-bottom: 20px;
     height: auto;
     min-height: auto;
     padding-bottom: 0;
+  }
+  .content {
+    margin-left: 0;
   }
   .grid {
     grid-template-columns: 1fr;
