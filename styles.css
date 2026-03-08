@@ -9,20 +9,23 @@ body {
 .layout {
   width: 100%;
   margin: 0;
-  padding: 28px;
+  padding: 40px;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(0, 3fr);
-  gap: 48px;
+  gap: 96px;
 }
 
 .sidebar {
   position: sticky;
-  top: 20px;
+  top: 40px;
   align-self: start;
 }
 
-.sidebar h1 { margin: 0 0 8px; }
-.sidebar p { margin: 0 0 14px; color: #6e7f99; }
+.sidebar h1 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 1.2;
+}
 
 .toolbar {
   display: flex;
@@ -43,20 +46,21 @@ input[type='search'] {
 #count { color: #6e7f99; font-size: 14px; }
 
 .sectionNav {
-  margin-top: 18px;
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  max-height: calc(100vh - 220px);
+  gap: 12px;
+  max-height: calc(100vh - 240px);
   overflow: auto;
   padding-right: 6px;
 }
 
 .sectionNav a {
-  color: #3a4e70;
+  color: #2f3e56;
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.35;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
 .sectionNav a:hover {
@@ -67,12 +71,14 @@ input[type='search'] {
 main { min-width: 0; }
 
 .category {
-  margin-bottom: 48px;
+  margin-bottom: 150px;
 }
 
 .category h2 {
-  margin: 0 0 10px;
+  margin: 0 0 12px;
   color: #2f3e56;
+  font-size: 24px;
+  line-height: 1.25;
 }
 
 .grid {
@@ -80,7 +86,7 @@ main { min-width: 0; }
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: start;
   column-gap: 12px;
-  row-gap: 24px;
+  row-gap: 50px;
 }
 
 @media (max-width: 760px) {
@@ -109,7 +115,7 @@ main { min-width: 0; }
 
 .previewLink {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .preview {
@@ -143,7 +149,7 @@ main { min-width: 0; }
 .card a:hover { text-decoration: underline; }
 
 .meta {
-  margin-top: 8px;
+  margin-top: 4px;
   color: #6e7f99;
   font-size: 13px;
 }
