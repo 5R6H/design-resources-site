@@ -1,6 +1,7 @@
 const categoriesEl = document.getElementById('categories');
 const searchEl = document.getElementById('search');
 const countEl = document.getElementById('count');
+const sectionNavEl = document.getElementById('sectionNav');
 
 let allData = [];
 
@@ -41,17 +42,31 @@ function sortItems(items, categoryName) {
   );
 }
 
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\u4e00-\u9fa5]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
 function render(data) {
   categoriesEl.innerHTML = '';
+  sectionNavEl.innerHTML = '';
   let total = 0;
 
   for (const category of data) {
     const section = document.createElement('section');
     section.className = 'category';
+    section.id = `section-${slugify(category.category)}`;
 
     const h2 = document.createElement('h2');
     h2.textContent = category.category;
     section.appendChild(h2);
+
+    const navLink = document.createElement('a');
+    navLink.href = `#${section.id}`;
+    navLink.textContent = category.category;
+    sectionNavEl.appendChild(navLink);
 
     const grid = document.createElement('div');
     grid.className = 'grid';
@@ -104,7 +119,7 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
-const CACHE_KEY = 'design_resources_cache_v3';
+const CACHE_KEY = 'design_resources_cache_v4';
 const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function loadCache() {
