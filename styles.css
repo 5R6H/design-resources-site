@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: #eef0f3;
+  background: #e8ebef;
   color: #1d2736;
 }
 
@@ -62,8 +62,13 @@ input[type='search'] {
   background: #ffffff;
   border: 1px solid #d7deea;
   color: #1d2736;
+  caret-color: #1d2736;
   padding: 10px 12px 10px 32px;
   border-radius: 10px;
+}
+
+input[type='search']::placeholder {
+  color: #5f6f86;
 }
 
 #count {
@@ -85,7 +90,7 @@ input[type='search'] {
 
 .sectionNav a {
   display: inline-block;
-  color: #2f3e56;
+  color: #000000;
   text-decoration: none;
   font-size: 24px;
   font-weight: 600;
@@ -94,7 +99,7 @@ input[type='search'] {
 }
 
 .sectionNav a:hover {
-  color: #2f3e56;
+  color: #000000;
   text-decoration: underline;
 }
 
