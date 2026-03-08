@@ -122,7 +122,7 @@ function filterData(keyword) {
     .filter(c => c.items.length > 0);
 }
 
-const CACHE_KEY = 'design_resources_cache_v5';
+const CACHE_KEY = 'design_resources_cache_v6';
 const CACHE_MAX_AGE_MS = 12 * 60 * 60 * 1000;
 
 function loadCache() {
