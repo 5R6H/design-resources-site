@@ -9,10 +9,10 @@ body {
 .layout {
   width: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 28px;
   display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 28px;
+  grid-template-columns: minmax(220px, 1fr) minmax(0, 3fr);
+  gap: 48px;
 }
 
 .sidebar {
@@ -83,13 +83,6 @@ main { min-width: 0; }
   row-gap: 24px;
 }
 
-@media (max-width: 1100px) {
-  .layout {
-    grid-template-columns: 240px minmax(0, 1fr);
-    gap: 20px;
-  }
-}
-
 @media (max-width: 760px) {
   .layout {
     display: block;
@@ -121,8 +114,8 @@ main { min-width: 0; }
 
 .preview {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
   object-position: top center;
   border-radius: 10px;
   background: #f2f5fa;
