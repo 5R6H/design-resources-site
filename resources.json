@@ -1,0 +1,792 @@
+[
+  {
+    "category": "字体 / Type",
+    "items": [
+      {
+        "name": "Fonts In Use",
+        "url": "https://fontsinuse.com/",
+        "tags": [
+          "type"
+        ],
+        "image": "https://cards.fontsinuse.com/cardshot?s=twitter&t=gallery&url=https://fontsinuse.com/&k=fea3b3b2f54abc640c7705b62dd465bd&v=aca9306f",
+        "region": "北美",
+        "country": "美国",
+        "city": "纽约"
+      },
+      {
+        "name": "Typewolf",
+        "url": "https://www.typewolf.com/",
+        "tags": [
+          "type"
+        ],
+        "image": "https://www.typewolf.com/assets/img/typewolf-og.png",
+        "region": "北美",
+        "country": "美国",
+        "city": "佛罗里达"
+      },
+      {
+        "name": "Pangram Pangram",
+        "url": "https://pangrampangram.com/collections/fonts",
+        "tags": [
+          "type"
+        ],
+        "image": "http://pangrampangram.com/cdn/shop/files/SM_Sharing_Image.jpg?v=1746838589",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Bureau Brut",
+        "url": "https://www.bb-bureau.fr/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Off Type",
+        "url": "https://off-type.com/collections/all",
+        "tags": [
+          "type"
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0632/8533/0147/files/Share_image.png?v=1682688388",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Due Studio",
+        "url": "https://www.due-studio.com/typefaces",
+        "tags": [
+          "type"
+        ],
+        "image": "https://cdn.prod.website-files.com/6032522b994d4a7ce92d47bd/61deabb04bbc681f1f741b0f_2STD_Open%20Graph%20Image.png",
+        "region": "亚洲",
+        "country": "韩国",
+        "city": "首尔"
+      },
+      {
+        "name": "Pangram Pangram",
+        "url": "https://pangrampangram.com",
+        "tags": [
+          "type"
+        ],
+        "image": "http://pangrampangram.com/cdn/shop/files/SM_Sharing_Image.jpg?v=1746838589",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Plain Form",
+        "url": "https://plain-form.com/",
+        "tags": [
+          "type"
+        ],
+        "image": "https://plain-form.com/assets/social.jpg",
+        "region": "欧洲",
+        "country": "德国",
+        "city": "柏林"
+      },
+      {
+        "name": "Gruppo Due",
+        "url": "https://gruppo-due.com/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "意大利",
+        "city": "米兰"
+      },
+      {
+        "name": "Velvetyne",
+        "url": "https://velvetyne.fr/",
+        "tags": [
+          "type"
+        ],
+        "image": "https://velvetyne.fr/site/templates/img/og.gif",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "The Designers Foundry",
+        "url": "https://www.thedesignersfoundry.com",
+        "tags": [
+          "type"
+        ],
+        "image": "https://res.cloudinary.com/tdfoundry/image/upload/v1698767304/Screenshot_2023-10-31_at_8.46.32_AM_xzbevy.png",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Klim Type Foundry",
+        "url": "https://klim.co.nz",
+        "tags": [
+          "type"
+        ],
+        "image": "https://klim.imgix.net/manual/klim-share.png?auto=format%2Ccompress&amp;cs=srgb&amp;q=90",
+        "region": "大洋洲",
+        "country": "新西兰",
+        "city": "惠灵顿"
+      },
+      {
+        "name": "Colophon Foundry",
+        "url": "https://www.colophon-foundry.org",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Lineto",
+        "url": "https://lineto.com/?story=geigy",
+        "tags": [
+          "type"
+        ],
+        "image": "https://lineto.com/api/front/page-capture?width=1440&height=960&scale=1&fullPath=/&v=1",
+        "region": "欧洲",
+        "country": "瑞士",
+        "city": "苏黎世"
+      },
+      {
+        "name": "Tightype",
+        "url": "https://tightype.com",
+        "tags": [
+          "type"
+        ],
+        "image": "https://tightype.com/og.png",
+        "region": "欧洲",
+        "country": "西班牙",
+        "city": "巴塞罗那"
+      },
+      {
+        "name": "Good Type Foundry",
+        "url": "https://goodtypefoundry.com",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "西班牙",
+        "city": "巴塞罗那"
+      },
+      {
+        "name": "OH no Type",
+        "url": "https://ohnotype.co",
+        "tags": [
+          "type"
+        ],
+        "image": "https://ohno.sfo3.cdn.digitaloceanspaces.com/images/Site/_thumbnail/foundry_banner.jpg",
+        "region": "北美",
+        "country": "美国",
+        "city": "洛杉矶"
+      },
+      {
+        "name": "Dinamo",
+        "url": "https://abcdinamo.com/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "德国",
+        "city": "柏林"
+      },
+      {
+        "name": "VJ Type",
+        "url": "https://vj-type.com/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Altiplano",
+        "url": "https://altiplano.xyz/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "南美",
+        "country": "阿根廷",
+        "city": "布宜诺斯艾利斯"
+      },
+      {
+        "name": "Hanli Type",
+        "url": "https://type.hanli.eu/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "荷兰",
+        "city": "阿姆斯特丹"
+      },
+      {
+        "name": "Typotheque",
+        "url": "https://typotheque.genderfluid.space/index.html",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "荷兰",
+        "city": "海牙"
+      },
+      {
+        "name": "Displaay",
+        "url": "https://displaay.net/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "捷克",
+        "city": "布拉格"
+      },
+      {
+        "name": "Skriftkompani",
+        "url": "https://skriftkompani.no/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "挪威",
+        "city": "奥斯陆"
+      },
+      {
+        "name": "FounderType",
+        "url": "https://www.foundertype.com/",
+        "tags": [
+          "type"
+        ],
+        "image": null,
+        "region": "中国",
+        "country": "中国",
+        "city": "上海"
+      },
+      {
+        "name": "Fonts from Folch",
+        "url": "https://www.fontsfromfolch.com/#fonts",
+        "tags": [
+          "type"
+        ],
+        "region": "欧洲",
+        "country": "西班牙",
+        "city": "巴塞罗那"
+      },
+      {
+        "name": "Weltkern",
+        "url": "https://www.weltkern.com/shop/typefaces",
+        "tags": [
+          "type"
+        ],
+        "region": "欧洲",
+        "country": "德国",
+        "city": "柏林"
+      },
+      {
+        "name": "Playtype",
+        "url": "https://playtype.com/typefaces/",
+        "tags": [
+          "type"
+        ],
+        "region": "欧洲",
+        "country": "丹麦",
+        "city": "哥本哈根"
+      },
+      {
+        "name": "TypeType",
+        "url": "https://typetype.org/fonts/",
+        "tags": [
+          "type"
+        ],
+        "region": "欧洲",
+        "country": "俄罗斯",
+        "city": "圣彼得堡"
+      },
+      {
+        "name": "ECAL Typefaces",
+        "url": "https://ecal-typefaces.ch/",
+        "tags": [
+          "type"
+        ],
+        "region": "欧洲",
+        "country": "瑞士",
+        "city": "洛桑"
+      },
+      {
+        "name": "汉仪字库",
+        "url": "https://www.hanyi.com.cn/font-list",
+        "tags": [
+          "type"
+        ],
+        "region": "中国",
+        "country": "中国",
+        "city": "北京"
+      },
+      {
+        "name": "Fonts Foundries Collection",
+        "url": "https://github.com/g-cqd/Fonts/tree/main/Foundries",
+        "tags": [
+          "type"
+        ],
+        "region": "全球",
+        "country": "全球",
+        "city": "在线"
+      }
+    ]
+  },
+  {
+    "category": "设计工作室 / Studios",
+    "items": [
+      {
+        "name": "&Walsh",
+        "url": "https://andwalsh.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "北美",
+        "country": "美国",
+        "city": "纽约"
+      },
+      {
+        "name": "702",
+        "url": "https://by702.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "北美",
+        "country": "美国",
+        "city": "旧金山"
+      },
+      {
+        "name": "A Black Cover Design",
+        "url": "https://ablackcover.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://freight.cargo.site/i/1e59d2b04d782769e3ee761b17039d00b2a5c792146994f1bc3ffe824aa50ddf/iconabcd-1.jpg",
+        "region": "中国",
+        "country": "中国",
+        "city": "北京"
+      },
+      {
+        "name": "Area of Work",
+        "url": "https://area-of.work/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "亚洲",
+        "country": "韩国",
+        "city": "首尔"
+      },
+      {
+        "name": "Collins",
+        "url": "https://www.wearecollins.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://cdn.sanity.io/images/fmzd4n68/production/e2ee60a94e1ccaae172c0c8304c59572d6316bb2-1200x630.png",
+        "region": "北美",
+        "country": "美国",
+        "city": "纽约"
+      },
+      {
+        "name": "Cotton",
+        "url": "https://cotton.design/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://cdn.sanity.io/images/kj6mszli/production/e9e3fb8d066e44f9a27373a747672904fe92d0e6-1200x650.png?rect=0,10,1200,630&amp;w=1200&amp;h=630&amp;q=80&amp;auto=format",
+        "region": "欧洲",
+        "country": "瑞典",
+        "city": "斯德哥尔摩"
+      },
+      {
+        "name": "Daisy Chain Studio",
+        "url": "https://daisychainstudio.net/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "DIA",
+        "url": "https://dia.tv/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "比利时",
+        "city": "安特卫普"
+      },
+      {
+        "name": "Little Troops",
+        "url": "https://littletroop.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://cdn.sanity.io/images/nzz8ytz7/production/2cafe897c3db53c72ae03a37d860e0ba637fcf7a-1200x630.jpg?w=1200&auto=format",
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Made Thought",
+        "url": "https://madethought.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "ManvsMachine",
+        "url": "https://mvsm.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://mvsm.com/assets/images/project/_extraLarge/cover_2025-12-03-122636_xmph.png",
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "More Studio",
+        "url": "https://morebymore.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://wp.morebymore.com/wp-content/uploads/2021/05/more-logo-animation.gif",
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Mother Design",
+        "url": "https://motherdesign.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Mouthwash Studio",
+        "url": "https://mouthwash.studio/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://cdn.sanity.io/images/ew1yzffi/production/dd50145491f0abad67f43aac089affd406c98902-1200x630.png?w=1200&auto=format",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "OK-RM",
+        "url": "https://ok-rm.co.uk/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Pentagram",
+        "url": "https://www.pentagram.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://www.pentagram.com/pentagram_social.png",
+        "region": "北美",
+        "country": "美国",
+        "city": "纽约"
+      },
+      {
+        "name": "Porto Rocha",
+        "url": "https://portorocha.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://images.prismic.io/portorocha/aQPzU7pReVYa33Lv_PortoRochaSquare.png?w=1200&h=630&q=80&fit=crop",
+        "region": "北美",
+        "country": "美国",
+        "city": "纽约"
+      },
+      {
+        "name": "Studio Airport",
+        "url": "https://studioairport.nl/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://www.studioairport.nl/app/uploads/2025/09/EM-Vol-5-Final-002.jpg",
+        "region": "欧洲",
+        "country": "荷兰",
+        "city": "鹿特丹"
+      },
+      {
+        "name": "Studio Ground Floor",
+        "url": "https://studiogroundfloor.co.uk/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "STUDIO NA.EO",
+        "url": "https://studionaeo.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "亚洲",
+        "country": "韩国",
+        "city": "首尔"
+      },
+      {
+        "name": "Studio Yukiko",
+        "url": "https://y-u-k-i-k-o.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://y-u-k-i-k-o.com/wp-content/uploads/2024/01/PoMo_Header-Horizontal01-1.jpg",
+        "region": "欧洲",
+        "country": "瑞士",
+        "city": "苏黎世"
+      },
+      {
+        "name": "Two Times Elliott",
+        "url": "https://xx.studio/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://www.datocms-assets.com/97422/1708032002-xx_kettlekids_twotimeselliott_2024_00013.jpg",
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "TWOMUCH",
+        "url": "https://twomuch.studio/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://f810ae3f76d2f6b08e6ebbacf44c6f29-12414.sites.k-hosting.co.uk/twomuch_kirby/media/site/6274165ab6-1726570613/meta.png",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Untitled Macao",
+        "url": "https://untitledmacao.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://untitledmacao.com/wp-content/uploads/2021/09/210930-untitled-branding-01-webbanner-1.png",
+        "region": "中国",
+        "country": "中国",
+        "city": "澳门"
+      },
+      {
+        "name": "Wolff Olins",
+        "url": "https://www.wolffolins.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "欧洲",
+        "country": "英国",
+        "city": "伦敦"
+      },
+      {
+        "name": "Workbyworks",
+        "url": "https://workbyworks.studio/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://workbyworks.studio/share.png",
+        "region": "欧洲",
+        "country": "比利时",
+        "city": "安特卫普"
+      },
+      {
+        "name": "Zoo",
+        "url": "https://z-o-o.fr/",
+        "tags": [
+          "studio"
+        ],
+        "image": "https://z-o-o.fr/content/zoo-sharinglogo.png",
+        "region": "欧洲",
+        "country": "法国",
+        "city": "巴黎"
+      },
+      {
+        "name": "Atmosphere Office",
+        "url": "https://atmosphereoffice.cn/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "中国",
+        "country": "中国",
+        "city": "上海"
+      },
+      {
+        "name": "DTZW",
+        "url": "https://dtzwstudio.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "中国",
+        "country": "中国",
+        "city": "北京"
+      },
+      {
+        "name": "Reesaw Studio",
+        "url": "https://reesaw.com/",
+        "tags": [
+          "studio"
+        ],
+        "image": null,
+        "region": "中国",
+        "country": "中国",
+        "city": "杭州"
+      }
+    ]
+  },
+  {
+    "category": "灵感 / Inspiration",
+    "items": [
+      {
+        "name": "showcasebh.com",
+        "url": "https://www.showcasebh.com/",
+        "tags": []
+      },
+      {
+        "name": "graduate360.cn",
+        "url": "http://graduate360.cn/",
+        "tags": []
+      },
+      {
+        "name": "dandad.org",
+        "url": "https://www.dandad.org/en/d-ad-new-blood-awards/",
+        "tags": []
+      },
+      {
+        "name": "youngones.org",
+        "url": "https://youngones.org/",
+        "tags": []
+      },
+      {
+        "name": "thedesignkids.org",
+        "url": "https://thedesignkids.org/awards/",
+        "tags": []
+      },
+      {
+        "name": "award360.cn",
+        "url": "http://award360.cn/",
+        "tags": []
+      },
+      {
+        "name": "intl.international",
+        "url": "https://intl.international/posters/",
+        "tags": []
+      },
+      {
+        "name": "tokyotypedirectorsclub.org",
+        "url": "https://tokyotypedirectorsclub.org/en/entry/",
+        "tags": []
+      },
+      {
+        "name": "oneclub.org",
+        "url": "https://www.oneclub.org/awards/tdcawards/-award/41996/2021-another-calendar",
+        "tags": []
+      },
+      {
+        "name": "theindex.website",
+        "url": "https://theindex.website/",
+        "tags": []
+      },
+      {
+        "name": "omglord.com",
+        "url": "https://omglord.com/",
+        "tags": []
+      },
+      {
+        "name": "diegogildebiedma.com",
+        "url": "https://diegogildebiedma.com/",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "category": "样机 / Mockup",
+    "items": [
+      {
+        "name": "unblast.com",
+        "url": "https://unblast.com/",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "category": "其他 / Other",
+    "items": [
+      {
+        "name": "layers.design",
+        "url": "https://layers.design/collections/mockups",
+        "tags": []
+      },
+      {
+        "name": "mockuprepublic.com",
+        "url": "https://mockuprepublic.com/",
+        "tags": []
+      },
+      {
+        "name": "mockup.maison",
+        "url": "https://mockup.maison/",
+        "tags": []
+      },
+      {
+        "name": "supply.family",
+        "url": "https://supply.family/product-category/mockups/",
+        "tags": []
+      },
+      {
+        "name": "benditomockup.com",
+        "url": "https://benditomockup.com/",
+        "tags": []
+      }
+    ]
+  }
+]
